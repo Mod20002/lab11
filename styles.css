@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.suminfo{
+    text-align: center;
+    
+}
+
+.counter {
+    display: flex;
+    align-items: baseline;
+    height: 80px;
+    width: 300px;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px dashed ;
+  }
+
+  .counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 32;
+  }
+
+ 
